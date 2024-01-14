@@ -12,5 +12,6 @@ public class PatientDTO {
     private Integer id;
     private String name;
     private String phone;
+    private Integer age;
     private Set<PatientAddressDTO> address;
 }

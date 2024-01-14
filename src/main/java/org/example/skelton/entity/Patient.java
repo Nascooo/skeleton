@@ -22,6 +22,9 @@ public class Patient {
     private String name;
     @Column(name = "mobile_number")
     private String phone;
+    @Column(name = "age")
+    private Integer age;
+
     @OneToMany
     @JoinColumn(name = "address_id")
     private Set<PatientAddress> address;
